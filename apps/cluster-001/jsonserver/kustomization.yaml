@@ -11,6 +11,7 @@ patches:
   - target:
       version: server.vambita.com/v1alpha1
       kind: JsonServer
+      name: app-instance01
     patch: |
       - op: replace
         path: /spec/replicas

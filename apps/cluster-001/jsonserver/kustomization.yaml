@@ -9,7 +9,6 @@ resources:
 
 patches:
   - target:
-      version: server.vambita.com/v1alpha1
       kind: JsonServer
       name: default-name
     patch: |

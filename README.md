@@ -4,6 +4,7 @@
 The latest version of the software components are required
 
 * `flux` 
+* an existing kubernetes cluster.
 * Github PAT with rights to https://github.com/sipatha/flux-gitops
 
 ### Bootstraping

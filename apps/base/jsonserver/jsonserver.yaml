@@ -1,10 +1,7 @@
 apiVersion: server.vambita.com/v1alpha1
 kind: JsonServer
 metadata:
-  labels:
-    app.kubernetes.io/name: json-server-operator
-    app.kubernetes.io/managed-by: kustomize
-  name: app-instance01
+  name: default-name
 spec:
   replicas: 1
   jsonConfig: |
